@@ -8,3 +8,4 @@ def my_each(array)
   collection 
 end
 my_each(collection) {|i| "I think #{i} are the best fruit."}
+hello(list) {|i| "Hello #{i} what's up?"}
