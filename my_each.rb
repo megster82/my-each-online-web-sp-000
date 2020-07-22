@@ -1,13 +1,13 @@
 collection = ["apples", "oranges", "bananas"]
 def my_each(array)
   i = 0
+  collection = []
   while i < array.length
-(array[i])
+  collection << yield(array[i])
     i += 1
   end
 end
 my_each(collection) {|i| "I think #{i} are the best fruit."}
-
 
 def hello(array)
   i = 0
@@ -19,4 +19,4 @@ def hello(array)
   collection
 end
 
-hello(array) {|i| "We have so many #{i}!"}
+hello(list) {|i| "Hello #{i} what's up?"}
