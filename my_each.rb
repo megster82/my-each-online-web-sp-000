@@ -6,4 +6,4 @@ def my_each(array)
     i = i + 1
   end
 end
-my_each(collection) {|i| puts "So I think #{i} is a piece of shit"}
+my_each(collection) {|i| puts "So I think #{i} are the best fruit."}
