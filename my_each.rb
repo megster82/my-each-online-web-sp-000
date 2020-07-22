@@ -10,4 +10,4 @@ def my_each(array)
   array
 end
 
-my_each(list) {|i| puts "I think #{i} are the best fruit!"}
+my_each(list) {|i| "I think #{i} are the best fruit!"}
