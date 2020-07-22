@@ -1,5 +1,5 @@
-def my_each(array) # put argument(s) here
-  puts "I always have fruit in my kitchen."
-  yield(array)
-  puts "Now I need to go grocery shopping."
+collection = [1,2,3,4]
+def my_each(collection) 
+  my_each(collection) do |num|
+  puts i 
 end
